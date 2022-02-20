@@ -1,0 +1,81 @@
+.exemples {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-right: calc(-1 * var(--main-gap));
+  margin-bottom: calc(-1 * var(--main-gap));
+}
+.exemples__item {
+  margin-right: var(--main-gap);
+  margin-bottom: var(--main-gap);
+}
+.exemples__work {
+  display: block;
+  text-decoration: none;
+
+  transition: box-shadow var(--time) var(--timing-function);
+
+  &:hover,
+  &:focus {
+    box-shadow: var(--box-shadow-exemples-work);
+  }
+}
+
+.exemples__thumb {
+  position: relative;
+  overflow: hidden;
+}
+
+.exemples__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(33, 150, 243, 0.9);
+
+  transform: translateY(100%);
+  transition: transform var(--time) var(--timing-function),
+    opacity var(--time) var(--timing-function);
+
+  opacity: 0;
+
+  .exemples__work:hover &,
+  .exemples__work:focus & {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.exemples__text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 322px;
+
+  margin: 0px;
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  color: var(--primary-white-color);
+}
+
+.card-content {
+  padding: 20px 24px;
+  border: 1px solid var(--border-portfolio-color);
+}
+.card-content__title {
+  margin-top: 0;
+  margin-bottom: 4px;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.card-content__text {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--primary-text-color);
+}
