@@ -9,7 +9,7 @@
   margin-right: var(--main-gap);
   margin-bottom: var(--main-gap);
 }
-.exemples__work {
+.exemples__link {
   display: block;
   text-decoration: none;
 
@@ -40,8 +40,8 @@
 
   opacity: 0;
 
-  .exemples__work:hover &,
-  .exemples__work:focus & {
+  .exemples__link:hover &,
+  .exemples__link:focus & {
     transform: translateY(0);
     opacity: 1;
   }
@@ -60,11 +60,11 @@
   color: var(--primary-white-color);
 }
 
-.card-content {
+.exemples-content {
   padding: 20px 24px;
   border: 1px solid var(--border-portfolio-color);
 }
-.card-content__title {
+.exemples__title {
   margin-top: 0;
   margin-bottom: 4px;
   font-size: 18px;
@@ -72,7 +72,7 @@
   letter-spacing: 0.06em;
 }
 
-.card-content__text {
+.exemples__content-text {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 16px;

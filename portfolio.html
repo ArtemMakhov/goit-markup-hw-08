@@ -18,17 +18,15 @@
   <body>
     <!-- шапка сайта-->
     <header class="page-header">
-      <div class="page-header__main container">
-        <a class="logo logo--primary" href="index.html"
-          >Web<span class="logo--dark">Studio</span></a
+      <div class="page-header__container container">
+        <a class="logo logo__page-header" href="index.html"
+          >Web<span class="logo__dark">Studio</span></a
         >
         <nav class="site-nav">
           <ul class="site-nav__list">
             <li class="site-nav__item"><a href="index.html" class="site-nav__link">Студия</a></li>
             <li class="site-nav__item">
-              <div class="site-nav__item--current">
-                <a href="portfolio.html" class="site-nav__link current">Портфолио</a>
-              </div>
+              <a href="portfolio.html" class="site-nav__link site-nav__link--current">Портфолио</a>
             </li>
             <li class="site-nav__item"><a href="" class="site-nav__link">Контакты</a></li>
           </ul>
@@ -55,10 +53,10 @@
       </div>
     </header>
     <main>
-      <section class="filter section">
-        <div class="filter__container container">
-          <h1 class="filter__title visually-hidden">Портфолио</h1>
-          <ul class="filter__list">
+      <section class="section">
+        <div class="container">
+          <h1 class="section__title visually-hidden">Портфолио</h1>
+          <ul class="filter">
             <li class="filter__item"><button type="button" class="filter__button">Все</button></li>
             <li class="filter__item">
               <button type="button" class="filter__button">Веб-сайты</button>
@@ -76,7 +74,7 @@
 
           <ul class="exemples">
             <li class="exemples__item">
-              <a href="" class="exemples__work">
+              <a href="" class="exemples__link">
                 <div class="exemples__thumb">
                   <img src="./images/portfolio/img-1.jpg" alt="ноутбук" />
 
@@ -88,14 +86,14 @@
                     </p>
                   </div>
                 </div>
-                <div class="card-content">
-                  <h2 class="card-content__title">Технокряк</h2>
-                  <p class="card-content__text">Веб-сайт</p>
+                <div class="exemples-content">
+                  <h2 class="exemples__title">Технокряк</h2>
+                  <p class="exemples__content-text">Веб-сайт</p>
                 </div>
               </a>
             </li>
             <li class="exemples__item">
-              <a href="" class="exemples__work">
+              <a href="" class="exemples__link">
                 <div class="exemples__thumb">
                   <img src="./images/portfolio/img-2.jpg" alt="два баскетболиста" />
                   <div class="exemples__overlay">
@@ -106,14 +104,14 @@
                     </p>
                   </div>
                 </div>
-                <div class="card-content">
-                  <h2 class="card-content__title">Постер New Orlean vs Golden Star</h2>
-                  <p class="card-content__text">Дизайн</p>
+                <div class="exemples-content">
+                  <h2 class="exemples__title">Постер New Orlean vs Golden Star</h2>
+                  <p class="exemples__content-text">Дизайн</p>
                 </div>
               </a>
             </li>
             <li class="exemples__item">
-              <a href="" class="exemples__work">
+              <a href="" class="exemples__link">
                 <div class="exemples__thumb">
                   <img src="./images/portfolio/img-3.jpg" alt="логотип рыбы" />
                   <div class="exemples__overlay">
@@ -124,14 +122,14 @@
                     </p>
                   </div>
                 </div>
-                <div class="card-content">
-                  <h2 class="card-content__title">Ресторан Seafood</h2>
-                  <p class="card-content__text">Приложение</p>
+                <div class="exemples-content">
+                  <h2 class="exemples__title">Ресторан Seafood</h2>
+                  <p class="exemples__content-text">Приложение</p>
                 </div>
               </a>
             </li>
             <li class="exemples__item">
-              <a href="" class="exemples__work">
+              <a href="" class="exemples__link">
                 <div class="exemples__thumb">
                   <img src="./images/portfolio/img-4.jpg" alt="наушники" />
                   <div class="exemples__overlay">
@@ -142,14 +140,14 @@
                     </p>
                   </div>
                 </div>
-                <div class="card-content">
-                  <h2 class="card-content__title">Проект Prime</h2>
-                  <p class="card-content__text">Маркетинг</p>
+                <div class="exemples-content">
+                  <h2 class="exemples__title">Проект Prime</h2>
+                  <p class="exemples__content-text">Маркетинг</p>
                 </div>
               </a>
             </li>
             <li class="exemples__item">
-              <a href="" class="exemples__work">
+              <a href="" class="exemples__link">
                 <div class="exemples__thumb">
                   <img src="./images/portfolio/img-5.jpg" alt="две коробки" />
                   <div class="exemples__overlay">
@@ -160,14 +158,14 @@
                     </p>
                   </div>
                 </div>
-                <div class="card-content">
-                  <h2 class="card-content__title">Проект Boxes</h2>
-                  <p class="card-content__text">Приложение</p>
+                <div class="exemples-content">
+                  <h2 class="exemples__title">Проект Boxes</h2>
+                  <p class="exemples__content-text">Приложение</p>
                 </div>
               </a>
             </li>
             <li class="exemples__item">
-              <a href="" class="exemples__work">
+              <a href="" class="exemples__link">
                 <div class="exemples__thumb">
                   <img src="./images/portfolio/img-6.jpg" alt="монитор" />
                   <div class="exemples__overlay">
@@ -178,14 +176,14 @@
                     </p>
                   </div>
                 </div>
-                <div class="card-content">
-                  <h2 class="card-content__title">Inspiration has no Borders</h2>
-                  <p class="card-content__text">Веб-сайт</p>
+                <div class="exemples-content">
+                  <h2 class="exemples__title">Inspiration has no Borders</h2>
+                  <p class="exemples__content-text">Веб-сайт</p>
                 </div>
               </a>
             </li>
             <li class="exemples__item">
-              <a href="" class="exemples__work">
+              <a href="" class="exemples__link">
                 <div class="exemples__thumb">
                   <img src="./images/portfolio/img-7.jpg" alt="книга" />
                   <div class="exemples__overlay">
@@ -196,14 +194,14 @@
                     </p>
                   </div>
                 </div>
-                <div class="card-content">
-                  <h2 class="card-content__title">Издание Limited Edition</h2>
-                  <p class="card-content__text">Дизайн</p>
+                <div class="exemples-content">
+                  <h2 class="exemples__title">Издание Limited Edition</h2>
+                  <p class="exemples__content-text">Дизайн</p>
                 </div>
               </a>
             </li>
             <li class="exemples__item">
-              <a href="" class="exemples__work">
+              <a href="" class="exemples__link">
                 <div class="exemples__thumb">
                   <img src="./images/portfolio/img-8.jpg" alt="бирка" />
                   <div class="exemples__overlay">
@@ -214,14 +212,14 @@
                     </p>
                   </div>
                 </div>
-                <div class="card-content">
-                  <h2 class="card-content__title">Проект LAB</h2>
-                  <p class="card-content__text">Маркетинг</p>
+                <div class="exemples-content">
+                  <h2 class="exemples__title">Проект LAB</h2>
+                  <p class="exemples__content-text">Маркетинг</p>
                 </div>
               </a>
             </li>
             <li class="exemples__item">
-              <a href="" class="exemples__work">
+              <a href="" class="exemples__link">
                 <div class="exemples__thumb">
                   <img src="./images/portfolio/img-9.jpg" alt="руки пичатают на ноутбуке" />
                   <div class="exemples__overlay">
@@ -232,9 +230,9 @@
                     </p>
                   </div>
                 </div>
-                <div class="card-content">
-                  <h2 class="card-content__title">Growing Business</h2>
-                  <p class="card-content__text">Приложение</p>
+                <div class="exemples-content">
+                  <h2 class="exemples__title">Growing Business</h2>
+                  <p class="exemples__content-text">Приложение</p>
                 </div>
               </a>
             </li>
@@ -246,8 +244,8 @@
     <footer class="footer">
       <div class="container footer__container">
         <div class="contacts">
-          <a class="logo logo--secondary" href="index.html"
-            >Web<span class="logo--light">Studio</span></a
+          <a class="logo logo__footer" href="index.html"
+            >Web<span class="logo__light">Studio</span></a
           >
           <address>
             <ul class="address">

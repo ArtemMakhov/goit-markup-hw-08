@@ -1,8 +1,8 @@
-.team {
+.section--team-background {
   background-color: var(--background-color-command);
 }
 
-.team__list {
+.team {
   display: flex;
 }
 
@@ -32,15 +32,15 @@
   font-size: 16px;
   line-height: 1.18;
 }
-.team-social {
+.social {
   display: flex;
   padding: 0px 32px;
 }
 
-.team-social__item:not(:last-child) {
+.social__item:not(:last-child) {
   margin-right: 10px;
 }
-.team-social__link {
+.social__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -59,6 +59,6 @@
   }
 }
 
-.team-social__icon {
+.social__icon {
   fill: currentColor;
 }

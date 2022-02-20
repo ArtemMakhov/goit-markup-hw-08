@@ -2,7 +2,7 @@
   background-color: var(--primary-white-color);
   border-bottom: 1px solid #ececec;
 }
-.page-header__main {
+.page-header__container {
   display: flex;
   align-items: center;
 }
@@ -34,14 +34,12 @@
   }
 }
 
-.site-nav__link.current {
+.site-nav__link--current {
+  position: relative;
   color: var(--accent-color);
 }
-.site-nav__item--current {
-  position: relative;
-}
 
-.site-nav__link.current::after {
+.site-nav__link--current::after {
   position: absolute;
   bottom: -1px;
   right: 0;
