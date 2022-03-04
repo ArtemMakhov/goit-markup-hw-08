@@ -1,14 +1,21 @@
 .clients {
   display: flex;
+  flex-wrap: wrap;
+  margin-bottom: calc(-1 * var(--main-gap));
+  margin-left: calc(-1 * var(--main-gap));
 }
-.clients__item:not(:last-child) {
-  margin-right: var(--main-gap);
+.clients__item {
+  margin-bottom: var(--main-gap);
+  margin-left: var(--main-gap);
+  width: calc(100% / 2 - 30px);
 }
+
 .clients__link {
   display: flex;
 
   border-radius: 4px;
-  width: 170px;
+  // width: 170px;
+
   height: 92px;
   justify-content: center;
   align-items: center;
