@@ -542,6 +542,16 @@ body {
   border-radius: 4px;
 }
 
+.section--display-none {
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .section--display-none {
+    display: block;
+  }
+}
+
 .section--no-padding-top {
   padding-top: 0;
 }
