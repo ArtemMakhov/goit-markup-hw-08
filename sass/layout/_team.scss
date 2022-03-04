@@ -6,20 +6,20 @@
 //   display: flex;
 // }
 
-// .team__item {
-//   background-color: var(--primary-white-color);
-//   box-shadow: var(--box-shadow-color);
-//   border-radius: 0px 0px 4px 4px;
+.team__item {
+  background-color: var(--primary-white-color);
+  box-shadow: var(--box-shadow-color);
+  border-radius: 0px 0px 4px 4px;
 
-//   &:not(:last-child) {
-//     margin-right: var(--main-gap);
-//   }
-// }
+  &:not(:last-child) {
+    margin-bottom: var(--main-gap);
+  }
+}
 
 .team__card-content {
   text-align: center;
   padding-top: var(--main-gap);
-  padding-bottom: var(--main-gap);
+  padding-bottom: 24px;
 }
 .team__title {
   font-weight: 500;
@@ -35,6 +35,7 @@
 .social {
   display: flex;
   padding: 0px 32px;
+  justify-content: center;
 }
 
 .social__item:not(:last-child) {
