@@ -1,14 +1,14 @@
-.advantages {
-  display: flex;
-}
+// .advantages {
+//   display: flex;
+// }
 
-.advantages__item {
-  flex-basis: calc(100% / 4);
+// .advantages__item {
+//   flex-basis: calc(100% / 4);
 
-  &:not(:last-child) {
-    margin-right: var(--main-gap);
-  }
-}
+//   &:not(:last-child) {
+//     margin-right: var(--main-gap);
+//   }
+// }
 
 .advantages__title {
   text-transform: uppercase;
@@ -28,9 +28,4 @@
 
   background-color: var(--background-color-command);
   border-radius: 4px;
-}
-
-.advantages__icon {
-  width: 70px;
-  height: 70px;
 }

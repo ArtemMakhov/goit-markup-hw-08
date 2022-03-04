@@ -2,19 +2,19 @@
   background-color: var(--background-color-command);
 }
 
-.team {
-  display: flex;
-}
+// .team {
+//   display: flex;
+// }
 
-.team__item {
-  background-color: var(--primary-white-color);
-  box-shadow: var(--box-shadow-color);
-  border-radius: 0px 0px 4px 4px;
+// .team__item {
+//   background-color: var(--primary-white-color);
+//   box-shadow: var(--box-shadow-color);
+//   border-radius: 0px 0px 4px 4px;
 
-  &:not(:last-child) {
-    margin-right: var(--main-gap);
-  }
-}
+//   &:not(:last-child) {
+//     margin-right: var(--main-gap);
+//   }
+// }
 
 .team__card-content {
   text-align: center;
