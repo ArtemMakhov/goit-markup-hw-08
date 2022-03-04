@@ -2,10 +2,14 @@
   background-color: var(--background-color-command);
 }
 
-// .team {
-//   display: flex;
-// }
-
+.team {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: calc(-1 * var(--main-gap));
+    margin-left: calc(-1 * var(--main-gap));
+  }
+}
 .team__item {
   background-color: var(--primary-white-color);
   box-shadow: var(--box-shadow-color);
@@ -14,12 +18,20 @@
   &:not(:last-child) {
     margin-bottom: var(--main-gap);
   }
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: var(--main-gap);
+    margin-left: var(--main-gap);
+  }
 }
 
 .team__card-content {
   text-align: center;
   padding-top: var(--main-gap);
   padding-bottom: 24px;
+  @media screen and (min-width: 1200px) {
+    padding-bottom: var(--main-gap);
+  }
 }
 .team__title {
   font-weight: 500;
