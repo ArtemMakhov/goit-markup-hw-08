@@ -3,19 +3,21 @@
   background-color: var(--background-color-footer);
 }
 
-.footer__container {
-  display: flex;
-  align-items: baseline;
-}
-.contacts {
-  flex-grow: 1;
-}
+// .footer__container {
+//   display: flex;
+//   align-items: baseline;
+// }
+// .contacts {
+//   flex-grow: 1;
+// }
 .address {
   font-style: normal;
+  text-align: center;
+  margin-bottom: 60px;
 }
-.address__item:not(:last-child) {
-  margin-bottom: 9px;
-}
+// .address__item:not(:last-child) {
+//   margin-bottom: 9px;
+// }
 
 .address__link {
   color: rgba(255, 255, 255, 0.6);
@@ -32,21 +34,23 @@
 // ----------NETWORKS
 
 .networks {
-  margin-left: 70px;
+  // margin-left: 70px;
+  margin-bottom: 60px;
 }
 .networks__text {
   margin-bottom: 20px;
   color: var(--primary-white-color);
 
-  margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-align: center;
 }
 .networks__list {
   display: flex;
+  justify-content: center;
 }
 
 .networks__item:not(:last-child) {
