@@ -1,15 +1,22 @@
 .logo {
   font-family: 'Raleway', cursive;
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
+  font-size: 24px;
+  line-height: 1.16;
   text-decoration: none;
 
   color: var(--accent-color);
+
+  @media screen and (min-width: 1200px) {
+    font-size: 26px;
+    line-height: 1.19;
+  }
 }
 
 .logo__page-header {
-  margin-right: 93px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  // margin-right: 93px;
 }
 .logo__dark {
   color: var(--logo-black-color);
@@ -22,6 +29,7 @@
   display: block;
   text-align: center;
   margin-bottom: 20px;
+
   @media screen and (min-width: 1200px) {
     text-align: start;
   }
