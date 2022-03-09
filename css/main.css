@@ -99,6 +99,22 @@ body {
   padding-bottom: 15px;
 }
 
+@media screen and (min-width: 768px) {
+  .logo__page-header {
+    margin-right: 88px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .logo__page-header {
+    margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+  }
+}
+
 .logo__dark {
   color: var(--logo-black-color);
 }
@@ -405,6 +421,19 @@ body {
   display: none;
 }
 
+@media screen and (min-width: 768px) {
+  .site-nav {
+    display: block;
+    margin-right: 84px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .site-nav {
+    margin-right: 0;
+  }
+}
+
 .site-nav__list {
   display: flex;
 }
@@ -452,20 +481,52 @@ body {
   margin-left: auto;
 }
 
-.auth-nav__item + .auth-nav__item {
-  margin-left: 50px;
+@media screen and (min-width: 768px) {
+  .auth-nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 21px;
+    padding-bottom: 21px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .auth-nav {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}
+
+.auth-nav__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 1200px) {
+  .auth-nav__item + .auth-nav__item {
+    margin-left: 50px;
+  }
+  .auth-nav__item:not(:last-child) {
+    margin-bottom: 0px;
+  }
 }
 
 .auth-nav__link {
   display: flex;
-  color: var(--primary-text-color);
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
+  font-size: 12px;
+  line-height: 1.16;
   letter-spacing: 0.02em;
+  color: var(--primary-text-color);
   text-decoration: none;
   align-items: center;
   transition: color var(--time) var(--timing-function);
+}
+
+@media screen and (min-width: 1200px) {
+  .auth-nav__link {
+    font-size: 14px;
+    line-height: 1.14;
+  }
 }
 
 .auth-nav__link:hover, .auth-nav__link:focus {
@@ -493,6 +554,13 @@ body {
   fill: var(--accent-color);
 }
 
+@media screen and (min-width: 768px) {
+  .menu-open-btn,
+  .menu-close-btn {
+    display: none;
+  }
+}
+
 .mob-menu {
   position: fixed;
   background-color: var(--primary-white-color);
@@ -518,6 +586,12 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+  .mob-menu {
+    display: none;
+  }
 }
 
 .mob-nav__item:not(:last-child) {

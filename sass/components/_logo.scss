@@ -16,7 +16,17 @@
 .logo__page-header {
   padding-top: 15px;
   padding-bottom: 15px;
-  // margin-right: 93px;
+
+  @media screen and (min-width: 768px) {
+    margin-right: 88px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+  }
 }
 .logo__dark {
   color: var(--logo-black-color);
