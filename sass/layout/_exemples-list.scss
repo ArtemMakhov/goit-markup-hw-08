@@ -1,13 +1,26 @@
 .exemples {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: calc(-1 * var(--main-gap));
+    margin-bottom: calc(-1 * var(--main-gap));
+  }
   // display: flex;
   // flex-wrap: wrap;
 
   // margin-right: calc(-1 * var(--main-gap));
-  margin-bottom: calc(-1 * var(--main-gap));
+  // margin-bottom: calc(-1 * var(--main-gap));
 }
 .exemples__item {
+  &:not(:last-child) {
+    margin-bottom: var(--main-gap);
+  }
+  @media screen and (min-width: 768px) {
+    margin-left: var(--main-gap);
+    margin-bottom: var(--main-gap);
+  }
   // margin-right: var(--main-gap);
-  margin-bottom: var(--main-gap);
+  // margin-bottom: var(--main-gap);
 }
 .exemples__link {
   display: block;

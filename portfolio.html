@@ -66,10 +66,10 @@
             </button>
             <ul class="mob-nav">
               <li class="mob-nav__item">
-                <a href="" class="mob-nav__link mob-nav__link--current">Студия</a>
+                <a href="index.html" class="mob-nav__link">Студия</a>
               </li>
               <li class="mob-nav__item">
-                <a href="portfolio.html" class="mob-nav__link">Портфолио</a>
+                <a href="portfolio.html" class="mob-nav__link mob-nav__link--current">Портфолио</a>
               </li>
               <li class="mob-nav__item"><a href="" class="mob-nav__link">Контакты</a></li>
             </ul>
@@ -101,7 +101,7 @@
       </div>
     </header>
     <main>
-      <!-- <section class="section">
+      <section class="section">
         <div class="container">
           <h1 class="section__title visually-hidden">Портфолио</h1>
           <ul class="filter">
@@ -118,13 +118,36 @@
             <li class="filter__item">
               <button type="button" class="filter__button">Маркетинг</button>
             </li>
-          </ul> -->
+          </ul>
 
           <ul class="exemples">
             <li class="exemples__item">
               <a href="" class="exemples__link">
                 <div class="exemples__thumb">
-                  <img src="./images/portfolio/img-1.jpg" alt="ноутбук" />
+                  <picture
+                    ><source
+                      srcset="
+                        ./images/desktop/project-1-desk-1x.jpg 1x,
+                        ./images/desktop/project-1-desk-2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/tablet/project-1-tab-1x.jpg 1x,
+                        ./images/tablet/project-1-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/mobile/project-1-mob-1x.jpg 1x,
+                        ./images/mobile/project-1-mob-2x.jpg 2x
+                      "
+                      media="(min-width: 320px)"
+                    />
+                    <img src="./images/desktop/project-1-desk-1x.jpg 1x" alt="ноутбук" />
+                  </picture>
 
                   <div class="exemples__overlay">
                     <p class="exemples__text">
@@ -143,7 +166,31 @@
             <li class="exemples__item">
               <a href="" class="exemples__link">
                 <div class="exemples__thumb">
-                  <img src="./images/portfolio/img-2.jpg" alt="два баскетболиста" />
+                  <picture
+                    ><source
+                      srcset="
+                        ./images/desktop/project-2-desk-1x.jpg 1x,
+                        ./images/desktop/project-2-desk-2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/tablet/project-2-tab-1x.jpg 1x,
+                        ./images/tablet/project-2-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/mobile/project-2-mob-1x.jpg 1x,
+                        ./images/mobile/project-2-mob-2x.jpg 2x
+                      "
+                      media="(min-width: 320px)"
+                    />
+                    <img src="./images/desktop/project-2-desk-1x.jpg 1x" alt="два баскетболиста" />
+                  </picture>
+
                   <div class="exemples__overlay">
                     <p class="exemples__text">
                       Технокряк это современная площадка распространения коронавируса. Компании
@@ -161,7 +208,31 @@
             <li class="exemples__item">
               <a href="" class="exemples__link">
                 <div class="exemples__thumb">
-                  <img src="./images/portfolio/img-3.jpg" alt="логотип рыбы" />
+                  <picture
+                    ><source
+                      srcset="
+                        ./images/desktop/project-3-desk-1x.jpg 1x,
+                        ./images/desktop/project-3-desk-2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/tablet/project-3-tab-1x.jpg 1x,
+                        ./images/tablet/project-3-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/mobile/project-3-mob-1x.jpg 1x,
+                        ./images/mobile/project-3-mob-2x.jpg 2x
+                      "
+                      media="(min-width: 320px)"
+                    />
+                    <img src="./images/desktop/project-3-desk-1x.jpg 1x" alt="логотип рыбы" />
+                  </picture>
+
                   <div class="exemples__overlay">
                     <p class="exemples__text">
                       Технокряк это современная площадка распространения коронавируса. Компании
@@ -179,7 +250,31 @@
             <li class="exemples__item">
               <a href="" class="exemples__link">
                 <div class="exemples__thumb">
-                  <img src="./images/portfolio/img-4.jpg" alt="наушники" />
+                  <picture
+                    ><source
+                      srcset="
+                        ./images/desktop/project-4-desk-1x.jpg 1x,
+                        ./images/desktop/project-4-desk-2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/tablet/project-4-tab-1x.jpg 1x,
+                        ./images/tablet/project-4-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/mobile/project-4-mob-1x.jpg 1x,
+                        ./images/mobile/project-4-mob-2x.jpg 2x
+                      "
+                      media="(min-width: 320px)"
+                    />
+                    <img src="./images/desktop/project-4-desk-1x.jpg 1x" alt="наушники" />
+                  </picture>
+
                   <div class="exemples__overlay">
                     <p class="exemples__text">
                       Технокряк это современная площадка распространения коронавируса. Компании
@@ -197,7 +292,31 @@
             <li class="exemples__item">
               <a href="" class="exemples__link">
                 <div class="exemples__thumb">
-                  <img src="./images/portfolio/img-5.jpg" alt="две коробки" />
+                  <picture
+                    ><source
+                      srcset="
+                        ./images/desktop/project-5-desk-1x.jpg 1x,
+                        ./images/desktop/project-5-desk-2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/tablet/project-5-tab-1x.jpg 1x,
+                        ./images/tablet/project-5-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/mobile/project-5-mob-1x.jpg 1x,
+                        ./images/mobile/project-5-mob-2x.jpg 2x
+                      "
+                      media="(min-width: 320px)"
+                    />
+                    <img src="./images/desktop/project-5-desk-1x.jpg 1x" alt="две коробки" />
+                  </picture>
+
                   <div class="exemples__overlay">
                     <p class="exemples__text">
                       Технокряк это современная площадка распространения коронавируса. Компании
@@ -215,7 +334,31 @@
             <li class="exemples__item">
               <a href="" class="exemples__link">
                 <div class="exemples__thumb">
-                  <img src="./images/portfolio/img-6.jpg" alt="монитор" />
+                  <picture
+                    ><source
+                      srcset="
+                        ./images/desktop/project-6-desk-1x.jpg 1x,
+                        ./images/desktop/project-6-desk-2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/tablet/project-6-tab-1x.jpg 1x,
+                        ./images/tablet/project-6-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/mobile/project-6-mob-1x.jpg 1x,
+                        ./images/mobile/project-6-mob-2x.jpg 2x
+                      "
+                      media="(min-width: 320px)"
+                    />
+                    <img src="./images/desktop/project-6-desk-1x.jpg 1x" alt="монитор" />
+                  </picture>
+
                   <div class="exemples__overlay">
                     <p class="exemples__text">
                       Технокряк это современная площадка распространения коронавируса. Компании
@@ -233,7 +376,31 @@
             <li class="exemples__item">
               <a href="" class="exemples__link">
                 <div class="exemples__thumb">
-                  <img src="./images/portfolio/img-7.jpg" alt="книга" />
+                  <picture
+                    ><source
+                      srcset="
+                        ./images/desktop/project-7-desk-1x.jpg 1x,
+                        ./images/desktop/project-7-desk-2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/tablet/project-7-tab-1x.jpg 1x,
+                        ./images/tablet/project-7-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/mobile/project-7-mob-1x.jpg 1x,
+                        ./images/mobile/project-7-mob-2x.jpg 2x
+                      "
+                      media="(min-width: 320px)"
+                    />
+                    <img src="./images/desktop/project-7-desk-1x.jpg 1x" alt="книга" />
+                  </picture>
+
                   <div class="exemples__overlay">
                     <p class="exemples__text">
                       Технокряк это современная площадка распространения коронавируса. Компании
@@ -251,7 +418,31 @@
             <li class="exemples__item">
               <a href="" class="exemples__link">
                 <div class="exemples__thumb">
-                  <img src="./images/portfolio/img-8.jpg" alt="бирка" />
+                  <picture
+                    ><source
+                      srcset="
+                        ./images/desktop/project-8-desk-1x.jpg 1x,
+                        ./images/desktop/project-8-desk-2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/tablet/project-8-tab-1x.jpg 1x,
+                        ./images/tablet/project-8-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/mobile/project-8-mob-1x.jpg 1x,
+                        ./images/mobile/project-8-mob-2x.jpg 2x
+                      "
+                      media="(min-width: 320px)"
+                    />
+                    <img src="./images/desktop/project-8-desk-1x.jpg 1x" alt="бирка" />
+                  </picture>
+
                   <div class="exemples__overlay">
                     <p class="exemples__text">
                       Технокряк это современная площадка распространения коронавируса. Компании
@@ -269,7 +460,34 @@
             <li class="exemples__item">
               <a href="" class="exemples__link">
                 <div class="exemples__thumb">
-                  <img src="./images/portfolio/img-9.jpg" alt="руки пичатают на ноутбуке" />
+                  <picture
+                    ><source
+                      srcset="
+                        ./images/desktop/project-9-desk-1x.jpg 1x,
+                        ./images/desktop/project-9-desk-2x.jpg 2x
+                      "
+                      media="(min-width: 1200px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/tablet/project-9-tab-1x.jpg 1x,
+                        ./images/tablet/project-9-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/mobile/project-9-mob-1x.jpg 1x,
+                        ./images/mobile/project-9-mob-2x.jpg 2x
+                      "
+                      media="(min-width: 320px)"
+                    />
+                    <img
+                      src="./images/desktop/project-9-desk-1x.jpg 1x"
+                      alt="руки пичатают на ноутбуке"
+                    />
+                  </picture>
+
                   <div class="exemples__overlay">
                     <p class="exemples__text">
                       Технокряк это современная площадка распространения коронавируса. Компании
@@ -289,7 +507,7 @@
       </section>
     </main>
     <!-- Футер -->
-    <!-- <footer class="footer">
+    <footer class="footer">
       <div class="container footer__container">
         <div class="contacts">
           <a class="logo logo__footer" href="index.html"
@@ -365,7 +583,7 @@
           </div>
         </form>
       </div>
-    </footer> -->
+    </footer>
     <script src="./js/menu.js"></script>
   </body>
 </html>
