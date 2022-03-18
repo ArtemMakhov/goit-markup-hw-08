@@ -17,6 +17,11 @@
   }
 }
 .contacts {
+  margin-bottom: 60px;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 0;
+  }
   @media screen and (min-width: 1200px) {
     flex-grow: 1;
   }
@@ -25,11 +30,9 @@
 .address {
   font-style: normal;
   text-align: center;
-  margin-bottom: 60px;
 
   @media screen and (min-width: 1200px) {
     text-align: start;
-    margin-bottom: 0;
   }
 }
 .address__item:not(:last-child) {
